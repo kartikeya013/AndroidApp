@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void plus (View v) {
+    public void addone (View v) {
 
         count++;
         abc.setText(Integer.toString(count));

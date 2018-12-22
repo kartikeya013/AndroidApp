@@ -18,7 +18,7 @@
         android:layout_marginEnd="277dp"
         android:layout_marginRight="277dp"
         android:layout_marginBottom="148dp"
-        android:onClick="k"
+        android:onClick="addone"
         android:text="+"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="40sp"
