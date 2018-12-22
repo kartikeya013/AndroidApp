@@ -88,7 +88,7 @@
         android:onClick="reset"
         android:text="RESET"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textSize="44sp"
+        android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button5"
