@@ -24,5 +24,15 @@ public class MainActivity extends AppCompatActivity {
         count++;
         abc.setText(Integer.toString(count));
     }
+    public void subtractone (View v) {
+
+        count--;
+        abc.setText(Integer.toString(count));
+    }
+    public void reset (View v) {
+
+        count=0;
+        abc.setText(Integer.toString(count));
+    }
 }
 
