@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
         abc.setText(Integer.toString(count));
     }
     public void manualadd (View v) {
-int a ;
-String b =inp.getText().toString();
-a= Integer.parseInt(b);
+        int a ;
+        String b =inp.getText().toString();
+        a= Integer.parseInt(b);
         count=count+a;
         abc.setText(Integer.toString(count));
     }
@@ -63,4 +63,3 @@ a= Integer.parseInt(b);
         abc.setText(Integer.toString(count));
     }
 }
-
