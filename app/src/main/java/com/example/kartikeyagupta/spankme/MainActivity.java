@@ -1,5 +1,6 @@
 package com.example.kartikeyagupta.spankme;
 
+import android.animation.ObjectAnimator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,9 +21,11 @@ public class MainActivity extends AppCompatActivity {
         inp =  (EditText) findViewById(R.id.input)  ;  }
 
 
+
     public void addone (View v) {
 
         count++;
+
         abc.setText(Integer.toString(count));
     }
     public void subtractone (View v) {
