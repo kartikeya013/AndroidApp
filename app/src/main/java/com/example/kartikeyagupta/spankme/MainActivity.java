@@ -42,5 +42,22 @@ a= Integer.parseInt(b);
         count=count+a;
         abc.setText(Integer.toString(count));
     }
+    public void subtractfive (View v) {
+
+        count=count-5;
+        abc.setText(Integer.toString(count));
+    }public void subtractten (View v) {
+
+        count=count-10;
+        abc.setText(Integer.toString(count));
+    }public void addfive (View v) {
+
+        count=count+5;
+        abc.setText(Integer.toString(count));
+    }public void addten (View v) {
+
+        count=count+10;
+        abc.setText(Integer.toString(count));
+    }
 }
 
