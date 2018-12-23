@@ -76,5 +76,5 @@ public class MainActivity extends AppCompatActivity {
         abc.setText(Integer.toString(count));
         abc.startAnimation(AnimationUtils.loadAnimation(MainActivity.this, android.R.anim.fade_in));
 
-    } 
+    }
 }

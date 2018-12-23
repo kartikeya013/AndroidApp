@@ -15,6 +15,7 @@
         android:layout_centerInParent="true"
         android:onClick="reset"
         android:text="RESET"
+        android:textColor="@drawable/round"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -24,29 +25,34 @@
     <Button
         android:id="@+id/addone"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_marginEnd="2dp"
         android:layout_toStartOf="@+id/reset"
-        android:background="@drawable/round"
         android:onClick="addone"
+        android:background="@drawable/shape"
         android:text="+"
+        android:padding="8dp"
         android:textSize="34sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@drawable/round"
+        />
 
     <Button
         android:id="@+id/subtractone"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toEndOf="@+id/reset"
-        android:background="@drawable/round"
         android:onClick="subtractone"
         android:text="-"
         android:textSize="34sp"
+        android:padding="8dp"
         android:textStyle="bold"
-        android:typeface="monospace" />
+        android:typeface="monospace"
+        android:background="@drawable/shape"
+        android:textColor="@drawable/round"
+        />
 
     <TextView
         android:id="@+id/textView2"
@@ -78,60 +84,74 @@
         android:layout_alignTop="@+id/input"
         android:layout_alignBottom="@id/input"
         android:layout_toRightOf="@id/input"
+        android:layout_alignParentEnd="true"
         android:onClick="manualadd"
         android:text="ADD"
+        android:textColor="@drawable/round"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="30sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/button20"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/button19"
         android:layout_alignStart="@+id/addone"
-        android:background="@drawable/round"
         android:onClick="addfive"
         android:text="+5"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        android:background="@drawable/shape"
+
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textColor="@drawable/round"
+        />
 
     <Button
         android:id="@+id/button21"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/button19"
-        android:background="@drawable/round"
         android:layout_toRightOf="@id/button20"
+        android:layout_marginLeft="10dp"
         android:onClick="addten"
         android:text="+10"
+        android:textColor="@drawable/round"
+        android:padding="8dp"
+        android:background="@drawable/shape"
+
         android:textSize="30sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/button22"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/button19"
-        android:layout_toRightOf="@id/button21"
-        android:background="@drawable/round"
+        android:layout_toLeftOf="@id/button23"
+        android:layout_marginRight="10dp"
+        android:textColor="@drawable/round"
         android:onClick="subtractfive"
-        android:layout_marginRight="30dp"
         android:text="-5"
+        android:padding="8dp"
+        android:background="@drawable/shape"
+
         android:textSize="30sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/button23"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/button19"
         android:layout_alignRight="@id/button19"
-        android:background="@drawable/round"
+        android:textColor="@drawable/round"
+        android:padding="8dp"
         android:onClick="subtractten"
         android:text="-10"
+        android:background="@drawable/shape"
+
         android:textSize="30sp"
         android:textStyle="bold" />
 
