@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
         abc = (TextView) findViewById(R.id.textView2);
         inp =  (EditText) findViewById(R.id.input)  ;  }
 
-       public void addone (View v) {
+    public void addone (View v) {
 
         count++;
 
 
-          abc.setText(Integer.toString(count));
-          abc.startAnimation(AnimationUtils.loadAnimation(MainActivity.this, android.R.anim.fade_in));
+        abc.setText(Integer.toString(count));
+        abc.startAnimation(AnimationUtils.loadAnimation(MainActivity.this, android.R.anim.fade_in));
     }
     public void subtractone (View v) {
 
