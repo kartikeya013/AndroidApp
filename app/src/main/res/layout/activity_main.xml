@@ -103,7 +103,7 @@
         android:text="ADD"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@drawable/round1"
-        android:textSize="22sp"
+        android:textSize="21sp"
         android:textStyle="bold" />
     </LinearLayout>
 
