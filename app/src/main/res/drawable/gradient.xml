@@ -7,7 +7,7 @@
                 android:centerColor="#757575"
                 android:endColor="#424242"
                 android:type="radial"
-                android:gradientRadius="600"/>
+                android:gradientRadius="601"/>
         </shape>
     </item>
 </selector>
